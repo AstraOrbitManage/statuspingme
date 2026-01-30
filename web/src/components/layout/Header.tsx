@@ -94,7 +94,7 @@ export function Header({ onMenuClick, isSidebarOpen }: HeaderProps) {
             />
           </svg>
         </div>
-        <span className="text-xl font-semibold text-gray-900">StatusPing</span>
+        <span className="text-xl font-semibold text-gray-900">SitRep</span>
       </Link>
 
       {/* Spacer */}

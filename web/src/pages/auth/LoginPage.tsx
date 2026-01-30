@@ -77,7 +77,7 @@ export function LoginPage() {
             </svg>
           </div>
           <h2 className="mt-6 text-3xl font-bold text-gray-900">
-            Sign in to StatusPing
+            Sign in to SitRep
           </h2>
           <p className="mt-2 text-sm text-gray-600">
             Or{' '}

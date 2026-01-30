@@ -2,7 +2,7 @@
   "name": "statuspingme",
   "version": "0.1.0",
   "private": true,
-  "description": "StatusPing - Uptime monitoring service",
+  "description": "SitRep - Uptime monitoring service",
   "workspaces": [
     "api",
     "web"

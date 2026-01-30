@@ -63,10 +63,10 @@ export function PublicTimelinePage() {
   // Update document title with project name
   useEffect(() => {
     if (project?.name) {
-      document.title = `${project.name} Updates | StatusPing`;
+      document.title = `${project.name} Updates | SitRep`;
     }
     return () => {
-      document.title = 'StatusPing';
+      document.title = 'SitRep';
     };
   }, [project?.name]);
 
@@ -386,7 +386,7 @@ export function PublicTimelinePage() {
               className="font-semibold hover:underline transition-colors"
               style={{ color: brandColor }}
             >
-              StatusPing
+              SitRep
             </a>
           </p>
         </div>

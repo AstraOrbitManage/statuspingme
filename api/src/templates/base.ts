@@ -151,7 +151,7 @@ export function wrapInBaseTemplate(
               </p>
               ` : ''}
               <p style="margin: 0; color: #9ca3af; font-size: 12px;" class="text-muted">
-                Powered by <a href="https://statuspingapp.com" style="color: #9ca3af; text-decoration: none;">StatusPing</a>
+                Powered by <a href="https://statuspingapp.com" style="color: #9ca3af; text-decoration: none;">SitRep</a>
               </p>
             </td>
           </tr>
@@ -183,7 +183,7 @@ export function generateTextFooter(options: {
     lines.push(`Unsubscribe: ${options.unsubscribeUrl}`);
   }
   
-  lines.push('Powered by StatusPing - https://statuspingapp.com');
+  lines.push('Powered by SitRep - https://statuspingapp.com');
   
   return lines.join('\n');
 }

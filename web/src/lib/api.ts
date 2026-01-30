@@ -1,4 +1,4 @@
-// API Client for StatusPing backend
+// API Client for SitRep backend
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 

@@ -72,7 +72,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
               />
             </svg>
           </div>
-          <span className="text-xl font-semibold text-gray-900">StatusPing</span>
+          <span className="text-xl font-semibold text-gray-900">SitRep</span>
           <button
             onClick={onClose}
             className="ml-auto rounded-md p-2 text-gray-500 hover:bg-gray-100"

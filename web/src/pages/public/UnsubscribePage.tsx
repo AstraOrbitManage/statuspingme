@@ -46,9 +46,9 @@ export function UnsubscribePage() {
 
   // Update document title
   useEffect(() => {
-    document.title = 'Unsubscribe | StatusPing';
+    document.title = 'Unsubscribe | SitRep';
     return () => {
-      document.title = 'StatusPing';
+      document.title = 'SitRep';
     };
   }, []);
 
@@ -611,7 +611,7 @@ function PageContainer({
               className="font-semibold hover:underline transition-colors"
               style={{ color: brandColor || DEFAULT_BRAND_COLOR }}
             >
-              StatusPing
+              SitRep
             </a>
           </p>
         </div>

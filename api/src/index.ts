@@ -28,7 +28,7 @@ app.use('/api/admin', adminRouter);
 
 // Start server
 app.listen(env.PORT, () => {
-  console.log(`🚀 StatusPing API running on http://localhost:${env.PORT}`);
+  console.log(`🚀 SitRep API running on http://localhost:${env.PORT}`);
   console.log(`   Health check: http://localhost:${env.PORT}/health`);
   console.log(`   Auth routes:  http://localhost:${env.PORT}/api/auth`);
   console.log(`   Project routes: http://localhost:${env.PORT}/api/projects`);

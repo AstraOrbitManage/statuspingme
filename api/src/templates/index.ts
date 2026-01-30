@@ -1,7 +1,7 @@
 /**
  * Email Templates
  * 
- * Polished, branded email templates for StatusPing notifications.
+ * Polished, branded email templates for SitRep notifications.
  * All templates support:
  * - Project branding (colors, logo)
  * - Mobile-responsive HTML
