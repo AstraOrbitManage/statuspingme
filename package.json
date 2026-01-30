@@ -1,0 +1,35 @@
+{
+  "name": "statuspingme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "StatusPing - Uptime monitoring service",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "npm run dev --workspace=api",
+    "dev:web": "npm run dev --workspace=web",
+    "build": "npm run build --workspace=api && npm run build --workspace=web",
+    "start": "npm run start --workspace=api",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "format": "prettier --write \"**/*.{ts,tsx,json,md}\"",
+    "db:generate": "npm run db:generate --workspace=api",
+    "db:migrate": "npm run db:migrate --workspace=api",
+    "db:push": "npm run db:push --workspace=api",
+    "db:studio": "npm run db:studio --workspace=api"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.34.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.0"
+  }
+}
